@@ -37,24 +37,29 @@ a{
   font-style: normal;
   color:#734320ed;
 }
-nav ul{
+nav ul {
   display: flex;
   justify-content: center;
-  gap: 30px
-  list-style: none;
+  gap: 30px;
+  list-style: none; 
   padding-left: 0;
+  border: 1px solid olivedrab;
 }
 
 nav ul li a {
-  color:olive;
+  color: olive;
   text-decoration: none; 
   padding: 8px;
   display: block;
+  font-weight: bold;
+  font-size: 14px;
 }
+
 ul li a {
   text-decoration: none;
-
+  border-bottom: 1px solid olivedrab;
 }
+
 ul li a:hover {
   text-decoration: underline;
 }
