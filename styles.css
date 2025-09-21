@@ -32,11 +32,17 @@ p img {
   margin-bottom: 32px;
 }
 
-a{
+a {
   font-weight: bold;
   font-style: normal;
-  color:#734320ed;
+  color: #734320ed;
 }
+
+nav {
+  background-color: olivedrab;  
+  padding: 10px 0;              
+}
+
 nav ul {
   display: flex;             
   justify-content: center;    
@@ -47,18 +53,15 @@ nav ul {
 }
 
 nav ul li a {
-  color:white;
+  color: white;                
   text-decoration: none; 
   padding: 8px 12px;
   display: block;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
+  background-color: darkolivegreen;
   text-decoration: underline;
-}
-nav {
-  background-color: darkolivegreen;  /* bar color */
-  padding: 10px 0;              /* spacing inside bar */
 }
