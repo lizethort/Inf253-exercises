@@ -47,7 +47,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: olive;
+  color:white;
   text-decoration: none; 
   padding: 8px 12px;
   display: block;
@@ -58,12 +58,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
-ul li a {
-  text-decoration: none;
-  border-bottom: 1px solid olivedrab;
-}
-
-ul li a:hover {
-  text-decoration: underline;
+nav {
+  background-color: darkolivegreen;  /* bar color */
+  padding: 10px 0;              /* spacing inside bar */
 }
