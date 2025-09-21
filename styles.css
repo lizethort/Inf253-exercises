@@ -31,3 +31,18 @@ p img {
   margin-left: 20px;
   margin-bottom: 32px;
 }
+
+a{
+  font-weight: bold;
+  font-style: normal;
+  font-family:monospace;
+  color:bisque
+}
+
+ul li a {
+  text-decoration: none;
+
+}
+ul li a:hover {
+  text-decoration: underline;
+}
