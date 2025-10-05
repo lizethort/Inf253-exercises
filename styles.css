@@ -12,7 +12,9 @@ h1#site-title {
 }
 
 h1#article-title {
-  /* Add styles here if needed */
+  text-align: center;
+  color: #a38b74;
+  font-family: Verdana;
 }
 
 p {
