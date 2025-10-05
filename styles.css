@@ -57,6 +57,7 @@ figure.main-image {
     text-align: center;
     border: 2px solid black;
     padding: 14px;
+    background-color: #ffeb99; /* light yellow background */
 }
 
 figure.main-image img {
@@ -72,6 +73,7 @@ figure.section-image {
     text-align: center;
     border: 2px solid black;
     padding: 14px;
+    background-color: #d0f0c0; /* light green background */
 }
 
 figure.section-image img {
@@ -79,6 +81,7 @@ figure.section-image img {
     height: auto;
     display: block;
     margin: 0 auto;
+    background-color: #d0f0c0; /* light green background */
 }
 
 figcaption {
