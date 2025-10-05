@@ -1,8 +1,9 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
 h1#site-title {
-  font-size: 85px;
+  font-size: 72px;
   letter-spacing: -3px;
   margin-top: 0;
   text-align: center;
@@ -11,17 +12,14 @@ h1#site-title {
 }
 
 h1#article-title {
-  font-size: 48px; 
-  letter-spacing: -3px;
-  margin-top: 0;
-  text-align: center;
-  color: #a38b74;
-  font-family: Verdana;
- 
+  /* Add styles here if needed */
+}
+
 p {
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
+
 figure {
   border: 2px solid black;
   padding: 14px;
