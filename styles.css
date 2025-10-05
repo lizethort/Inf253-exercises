@@ -1,94 +1,87 @@
+/* Body and general font */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
+/* Site title */
 h1#site-title {
   font-size: 72px;
-  letter-spacing: -3px;
-  margin-top: 0;
+  letter-spacing: -2px;
   text-align: center;
   color: #a38b74;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: Verdana;
 }
 
-h1#article-title {
- text-align: center;
+/* Article title */
+h2#article-title {
+  font-size: 36px;
+  text-align: center;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-p {
-  line-height: 1.25;
-  margin-bottom: 1.25em;
-}
-
-figure {
-  border: 2px solid black;
-  padding: 14px;
-}
-
-figure img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 12px;
-}
-
-figure.main-image {
-background:yellowgreen
-border: green
-color:white
-}
-
-figure.section-image {
- margin-left: 20px;
- margin-bottom: 32px;
- max-width:320px;
-}
-figure.section-image.odd {
-float:right;
-margin: left 20px;
-
-}
-figure.section-image.even {
-  float:left; 
-margin: right 20px;
-}
-
-p img {
-  float: right;
-  max-width: 60%;
-  margin-left: 20px;
-  margin-bottom: 32px;
-}
-
-a {
-  font-weight: bold;
-  font-style: normal;
-  color: #734320ed;
-}
-
+/* Navigation bar */
 nav {
-  background-color: olivedrab;  
-  padding: 10px 0;              
+  background-color: olivedrab;
+  padding: 10px 0;
 }
 
 nav ul {
-  display: flex;             
-  justify-content: center;    
-  gap: 30px;                  
-  list-style: none;           
-  padding: 0;                
-  margin: 0;                
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
-  color: white;                
-  text-decoration: none; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
   padding: 8px 12px;
   display: block;
   font-size: 14px;
-  font-weight: bold;
 }
 
 nav ul li a:hover {
   background-color: darkolivegreen;
   text-decoration: underline;
+}
+
+/* Figures (all images) */
+figure {
+  border: 2px solid black;
+  padding: 14px;
+  margin: 20px auto;   /* Center figure and add vertical spacing */
+  max-width: 320px;    /* Make images smaller */
+  text-align: center;  /* Center captions */
+}
+
+/* Images inside figures */
+figure img {
+  width: 100%;   /* Fill the width of the figure */
+  height: auto;  /* Keep aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center image */
+}
+
+/* Figure captions */
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #333;
+}
+
+/* Paragraphs */
+p {
+  margin: 15px auto;
+  max-width: 600px;
+  padding: 0 10px;
 }
