@@ -38,7 +38,7 @@ color:white
 }
 
 figure.section-image {
- float:right;
+ float:left;
  max-width: 60%;
  margin-left: 20px;
  margin-bottom: 32px;
