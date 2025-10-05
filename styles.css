@@ -15,7 +15,6 @@ h1#site-title {
     font-family: Verdana;
 }
 
-/* Article title */
 h2#article-title {
     font-size: 36px;
     text-align: center;
@@ -24,7 +23,6 @@ h2#article-title {
     margin-bottom: 20px;
 }
 
-/* Navigation bar */
 nav {
     background-color: olivedrab;
     padding: 10px 0;
