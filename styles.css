@@ -52,7 +52,7 @@ nav ul li a:hover {
 }
 
 figure.main-image {
-    max-width: 700px;   /* Bigger size */
+    max-width: 900px;   /* Bigger size */
     margin: 30px auto;  /* Center figure and add spacing */
     text-align: center;
     border: 2px solid black;
