@@ -73,7 +73,7 @@ figure.section-image {
     text-align: center;
     border: 2px solid black;
     padding: 14px;
-    background-color: #d0f0c0; /* light green background */
+    background-color: #5dab37; /* light green background */
 }
 
 figure.section-image img {
@@ -81,13 +81,13 @@ figure.section-image img {
     height: auto;
     display: block;
     margin: 0 auto;
-    background-color: #d0f0c0; /* light green background */
+    background-color: #4a6d38; /* light green background */
 }
 
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #333;
+    background-color: #4a6d38; /* light green background */
 }
 
 p {
