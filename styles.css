@@ -31,6 +31,19 @@ figure img {
   margin-bottom: 12px;
 }
 
+figure.main-image {
+background:yellowgreen
+border: green
+color:white
+}
+
+figure.section-image {
+ float:right;
+ max-width: 60%;
+ margin-left: 20px;
+ margin-bottom: 32px;
+}
+
 p img {
   float: right;
   max-width: 60%;
