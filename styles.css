@@ -15,6 +15,7 @@ h1#site-title {
     font-family: Verdana;
 }
 
+/* Article title */
 h2#article-title {
     font-size: 36px;
     text-align: center;
@@ -23,6 +24,7 @@ h2#article-title {
     margin-bottom: 20px;
 }
 
+/* Navigation bar */
 nav {
     background-color: olivedrab;
     padding: 10px 0;
@@ -52,31 +54,35 @@ nav ul li a:hover {
 }
 
 figure.main-image {
-    max-width: 900px;
+    max-width: 800px;
     margin: 30px auto;
     text-align: center;
     border: 2px solid black;
     padding: 14px;
-    background-color: #459c31;
+    background-color: #215a14;
 }
 
+/* Section images smaller */
 figure.section-image {
-    max-width: 320px;
     text-align: center;
     border: 2px solid black;
     padding: 14px;
 }
 
+/* Odd section image (floats left) */
 figure.section-image.odd {
     float: left;
-    background-color: #459c31;
+    width: 320px;               
+    background-color: #215a14; 
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
+/* Even section image (floats right) */
 figure.section-image.even {
     float: right;
-    background-color: #459c31;
+    width: 320px;               
+    background-color: #215a14;  
     margin-left: 20px;
     margin-bottom: 20px;
 }
