@@ -53,27 +53,38 @@ nav ul li a:hover {
 
 figure.main-image {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 30px auto;
     text-align: center;
     border: 2px solid black;
     padding: 14px;
-    background-color: #8ab03e;
+    background-color: #459c31;
 }
 
 figure.section-image {
     max-width: 320px;
-    margin: 20px auto;
     text-align: center;
     border: 2px solid black;
     padding: 14px;
 }
 
 figure.section-image.odd {
-    background-color: #528439; 
+    float: left;
+    background-color: #459c31;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 figure.section-image.even {
-    background-color: #528439; 
+    float: right;
+    background-color: #459c31;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 figure img {
@@ -86,7 +97,8 @@ figure img {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #fffef8;
+    color: #333;
+}
 
 p {
     margin: 15px auto;
