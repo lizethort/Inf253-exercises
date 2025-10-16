@@ -35,22 +35,31 @@ header {
     margin: 0;
 }
 
+nav {
+    background-color: olivedrab;
+    padding: 10px 0;
+}
+
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
     display: flex;
     justify-content: center;
     gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+    font-size: 14px;
 }
 
-nav a:hover {
+nav ul li a:hover {
+    background-color: blue;
     text-decoration: underline;
 }
 
@@ -62,7 +71,7 @@ main {
 }
 
 h2, h3 {
-    color: #215a14;
+    color: #14475aff;
 }
 
 section {
@@ -93,7 +102,7 @@ figcaption {
 
 /* Footer */
 #footer-info {
-    background-color: #215a14;
+    background-color: #34c4b1ff;
     color: white;
     text-align: center;
     padding: 10px 0;
