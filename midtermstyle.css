@@ -12,7 +12,7 @@ body {
     position: absolute;
     top: -40px;
     left: 0;
-    background-color: #215a14;
+    background-color: #145a59;
     color: white;
     padding: 8px 12px;
     text-decoration: none;
@@ -24,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background-color: #215a14;
+    background-color: #153450;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -36,7 +36,7 @@ header {
 }
 
 nav {
-    background-color: olivedrab;
+    background-color: rgb(35, 142, 138);
     padding: 10px 0;
 }
 
@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: blue;
+    background-color: rgb(33, 194, 189);
     text-decoration: underline;
 }
 
