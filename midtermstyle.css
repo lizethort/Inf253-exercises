@@ -7,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Skip link for accessibility */
 .skip-link {
     position: absolute;
     top: -40px;
@@ -22,7 +21,6 @@ body {
     top: 0;
 }
 
-/* Header */
 header {
     background-color: #153450;
     color: white;
@@ -63,7 +61,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main content */
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -78,7 +75,6 @@ section {
     margin-bottom: 30px;
 }
 
-/* Figures and images */
 figure {
     text-align: center;
     margin: 30px auto;
@@ -100,7 +96,6 @@ figcaption {
     margin-top: 6px;
 }
 
-/* Footer */
 #footer-info {
     background-color: #34c4b1ff;
     color: white;
