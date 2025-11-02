@@ -63,10 +63,12 @@ figure.main-image {
     background-color: #4bb035;
 }
 
-figure.section-image {
+@media all and (min-width: 768px){
+    figure.section-image{ 
     text-align: center;
     border: 2px solid black;
     padding: 14px;
+    }
 }
 
 figure.section-image.odd {
