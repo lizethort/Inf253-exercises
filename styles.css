@@ -25,6 +25,9 @@ h2#article-title {
     margin-bottom: 20px;
 }
 
+/* ----------------------
+   Navigation
+---------------------- */
 nav {
     background-color: #cce7ff;   
     padding: 10px 0;
@@ -58,9 +61,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* ----------------------
-   Figures
----------------------- */
 figure.main-image {
     max-width: 800px;
     margin: 30px auto;
@@ -119,8 +119,9 @@ p {
     padding: 0 10px;
 }
 
+
 #message {
-    background-color: #fff1b6;   
+    background-color: #fff1b6;    
     border: 1px solid #5d576b;
     padding: 20px 40px;
     margin: 12px 0px;
