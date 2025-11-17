@@ -3,13 +3,15 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color: #fef6e4;  
+    color: #5d576b;              
 }
 
 h1#site-title {
     font-size: 72px;
     letter-spacing: -2px;
     text-align: center;
-    color: #a38b74;
+    color: #ffb3ba;              
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Verdana;
@@ -18,13 +20,14 @@ h1#site-title {
 h2#article-title {
     font-size: 36px;
     text-align: center;
-    color: #555;
+    color: #5d576b;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
+
 nav {
-    background-color: olivedrab;
+    background-color: #cce7ff;   
     padding: 10px 0;
 }
 
@@ -33,15 +36,17 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-@media all and (min-width:376px){
-   nav ul{ display: flex;
-    justify-content: center;
-    gap: 30px;
-   }  
+
+@media all and (min-width: 376px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 nav ul li a {
-    color: white;
+    color: #ffffff;              
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
@@ -50,39 +55,42 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: darkolivegreen;
+    background-color: #b0d6ff;   
     text-decoration: underline;
 }
 
+/* ----------------------
+   Figures
+---------------------- */
 figure.main-image {
     max-width: 800px;
     margin: 30px auto;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #5d576b;
     padding: 14px;
-    background-color: #4bb035;
+    background-color: #d5f4e6;   
 }
 
-@media all and (min-width: 768px){
-    figure.section-image{ 
-    text-align: center;
-    border: 2px solid black;
-    padding: 14px;
+@media all and (min-width: 768px) {
+    figure.section-image {
+        text-align: center;
+        border: 2px solid #5d576b;
+        padding: 14px;
     }
 }
 
 figure.section-image.odd {
     float: left;
-    width: 400px;               
-    background-color: #d25b85; 
+    width: 400px;
+    background-color: #ffb3ba;   
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 figure.section-image.even {
     float: right;
-    width: 400px;               
-    background-color: #d25b85;  
+    width: 400px;
+    background-color: #ffb3ba;  
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -103,7 +111,7 @@ figure img {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #ffffff;
+    color: #5d576b;
 }
 
 p {
@@ -113,32 +121,14 @@ p {
 }
 
 #message {
-  background: #e9ffe4;
-  border: 1px solid #178201;
-  padding: 20px 40px;
-  margin: 12px 0px;
-  border-radius: 4px;
-  transition: opacity 0.2s ease;
-}
-
-
-body.dark-mode {
-  background: #010101;
-  color: #ffffff;
-}
-
-body.dark-mode button {
-  background-color: #ffffff;
-}
-
-#message {
-    background: #e9ffe4;
-    border: 1px solid #178201;
+    background-color: #fff1b6;   
+    border: 1px solid #5d576b;
     padding: 20px 40px;
     margin: 12px 0px;
     border-radius: 4px;
     opacity: 1;
     transition: opacity 0.5s ease;
+    color: #5d576b;
 }
 
 #message.fade-out {
@@ -147,4 +137,40 @@ body.dark-mode button {
 
 #message.dismissed {
     display: none;
+}
+
+
+body.dark-mode {
+    background-color: #010101;
+    color: #ffffff;
+}
+
+body.dark-mode h1#site-title,
+body.dark-mode h2#article-title {
+    color: #ffb3ba;
+}
+
+body.dark-mode nav {
+    background-color: #3c3c3c;
+}
+
+body.dark-mode nav ul li a {
+    color: #e0e0e0;
+}
+
+body.dark-mode figure.main-image,
+body.dark-mode figure.section-image.odd,
+body.dark-mode figure.section-image.even {
+    background-color: #4b4b4b;
+    border-color: #ffb3ba;
+}
+
+body.dark-mode #message {
+    background-color: #5c5c5c;
+    color: #e0e0e0;
+}
+
+body.dark-mode button {
+    background-color: #ffb3ba;
+    color: #010101;
 }
