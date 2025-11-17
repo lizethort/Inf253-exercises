@@ -6,7 +6,6 @@
     <link href="styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
     <a href="#maincontent">Skip to content</a>
 
@@ -34,44 +33,49 @@
     <main id="maincontent">
         <h2 id="article-title">Hello, World!</h2>
 
+        <h3>About Me</h3>
+        <p>
+            I am a bilingual first-grade teacher with five years of classroom experience,
+            and I feel grateful to be serving students in the same community where I grew up.
+        </p>
+
+        <h3>Hobbies</h3>
+        <p>
+            In my free time, I enjoy going on walks, watching movies, and trying out new restaurants.
+            I love spending time with my dog!
+        </p>
+
+        <h4>Favorite Walk Spots</h4>
+        <p>
+            My dog and I love walking at the local park near my home, especially during the evenings.
+        </p>
+
+        <h3>Work Experience & Pets</h3>
+        <p>
+            Before teaching, I worked as a Circulation Clerk at a public library.
+        </p>
+
+        <!-- Main Image -->
         <figure class="main-image">
             <img src="https://placedog.net/700/300?id=238" 
                  alt="A happy Corgi outside getting rained on" />
             <figcaption>Dogs make me happy!</figcaption>
         </figure>
 
-        <article>
-            <p>
-                I am a bilingual first-grade teacher with five years of classroom 
-                experience, and I feel grateful to be serving students in the same 
-                community where I grew up.
-            </p>
-
-            <p>
-                In my free time, I enjoy going on walks, watching movies, and 
-                trying out new restaurants. I love spending time with my dog!
-            </p>
-
-            <figure class="section-image odd">
+        <!-- Section Images with Flexbox -->
+        <div class="section-images">
+            <figure class="section-image">
                 <img src="https://placedog.net/600/300?id=161&random=0" 
                      alt="A happy dog with glasses on a bed" />
                 <figcaption>Dogs make me happy!</figcaption>
             </figure>
 
-            <p>
-                Before teaching, I worked as a Circulation Clerk at a public library.
-                I worked closely with customers of all ages and backgrounds. I provided customers with the best 
-                customer service and constantly strived to ensure the library's values were reflected through my actions. 
-                I loved the environment at the library where I worked as the staff members were supportive and encouraged me to come out of my shell more. 
-                This “job” eventually became a second home to me, and am now pursuing it as a “career”.
-            </p>
-
-            <figure class="section-image even">
-                <img src="https://placedog.net/600/300?id=161&random=0" 
-                     alt="A happy dog with glasses on a bed" />
+            <figure class="section-image">
+                <img src="https://placedog.net/600/300?id=162&random=0" 
+                     alt="Another happy dog with glasses on a bed" />
                 <figcaption>Dogs make me happy!</figcaption>
             </figure>
-        </article>
+        </div>
     </main>
 
     <script>
