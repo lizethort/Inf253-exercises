@@ -5,7 +5,16 @@
     <title>My Hello World Document</title>
     <link href="styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
+        #message {
+            transition: opacity 0.5s ease;
+        }
+
+        .fade-out {
+            opacity: 0;
+        }
+
         .dismissed {
             display: none;
         }
@@ -14,13 +23,16 @@
 
 <body>
     <a href="#maincontent">Skip to content</a>
+
     <div class="container">
         <button onclick="darkMode()">Toggle dark mode</button>
+
         <div id="message">
             Welcome to my page!
             <button onclick="fadeMessage()">Dismiss</button>
         </div>
     </div>
+
     <header>
         <h1 id="site-title">About Me!</h1>
         <nav>
@@ -37,31 +49,36 @@
         <h2 id="article-title">Hello, World!</h2>
 
         <figure class="main-image">
-            <img src="https://placedog.net/700/300?id=238" alt="A happy Corgi outside getting rained on" />
+            <img src="https://placedog.net/700/300?id=238" 
+                 alt="A happy Corgi outside getting rained on" />
             <figcaption>Dogs make me happy!</figcaption>
         </figure>
 
         <article>
             <p>
-                I am a bilingual first-grade teacher with five years of classroom experience, and I feel grateful to be serving students in the same community where I grew up. Teaching in the district where I was once a student feels surreal—the roles have truly reversed!
+                I am a bilingual first-grade teacher with five years of classroom 
+                experience, and I feel grateful to be serving students in the same 
+                community where I grew up.
             </p>
 
             <p>
-                In my free time, I enjoy going on walks, watching movies, and trying out new restaurants. 
-                I love spending time with my dog. I am also excited about this class and look forward to developing my coding skills.
+                In my free time, I enjoy going on walks, watching movies, and 
+                trying out new restaurants. I love spending time with my dog!
             </p>
 
             <figure class="section-image odd">
-                <img src="https://placedog.net/600/300?id=161&random=0" alt="A happy dog with glasses on a bed" />
+                <img src="https://placedog.net/600/300?id=161&random=0" 
+                     alt="A happy dog with glasses on a bed" />
                 <figcaption>Dogs make me happy!</figcaption>
             </figure>
 
             <p>
-                Before teaching, I worked as a Circulation Clerk at a public library. I worked closely with customers of all ages and backgrounds, providing excellent service and striving to reflect the library's values through my actions. The environment was supportive, encouraging me to come out of my shell more. This job eventually became a second home to me, and I am now pursuing teaching as a career.
+                Before teaching, I worked as a Circulation Clerk at a public library.
             </p>
 
             <figure class="section-image even">
-                <img src="https://placedog.net/600/300?id=161&random=0" alt="A happy dog with glasses on a bed" />
+                <img src="https://placedog.net/600/300?id=161&random=0" 
+                     alt="A happy dog with glasses on a bed" />
                 <figcaption>Dogs make me happy!</figcaption>
             </figure>
         </article>
@@ -70,14 +87,17 @@
     <script>
         function darkMode() {
             document.body.classList.toggle("dark-mode");
-            function fadeMessage() {
-        const msg = document.getElementById("message");
-        msg.classList.add("fade-out");
-        setTimeout(() => {
-            msg.classList.add("dismissed");
-        }, 500);
-    }
-  }
+        }
+
+        function fadeMessage() {
+            const msg = document.getElementById("message");
+
+            msg.classList.add("fade-out");
+
+            setTimeout(() => {
+                msg.classList.add("dismissed");
+            }, 500);
+        }
     </script>
 </body>
 </html>
